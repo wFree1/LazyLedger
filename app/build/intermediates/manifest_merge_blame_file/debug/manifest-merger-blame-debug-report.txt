@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lazyledger.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.lazyledger.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.lazyledger.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:5:5-34:19
+18        android:allowBackup="true"
+18-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@android:drawable/sym_def_app_icon"
+22-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:7:9-58
+23        android:label="@string/app_name"
+23-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@android:drawable/sym_def_app_icon"
+24-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:9:9-63
+25        android:supportsRtl="true"
+25-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.LazyLedger" >
+27-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:11:9-48
+28        <activity
+28-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:13:9-20:20
+29            android:name="com.lazyledger.app.ui.MainActivity"
+29-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:14:13-44
+30            android:exported="true" >
+30-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:15:13-36
+31            <intent-filter>
+31-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:16:13-19:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:17:17-69
+32-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:17:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:18:17-77
+34-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:18:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:22:9-32:19
+39            android:name="com.lazyledger.app.service.AutoLedgerService"
+39-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:23:13-54
+40            android:exported="true"
+40-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:24:13-36
+41            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+41-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:25:13-79
+42            <intent-filter>
+42-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:26:13-28:29
+43                <action android:name="android.accessibilityservice.AccessibilityService" />
+43-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:27:17-92
+43-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:27:25-89
+44            </intent-filter>
+45
+46            <meta-data
+46-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:29:13-31:72
+47                android:name="android.accessibilityservice"
+47-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:30:17-60
+48                android:resource="@xml/accessibility_service_config" />
+48-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:31:17-69
+49        </service>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.lazyledger.app.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+63                android:value="androidx.startup" />
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+64        </provider>
+65
+66        <service
+66-->[androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+67            android:name="androidx.room.MultiInstanceInvalidationService"
+67-->[androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+68            android:directBootAware="true"
+68-->[androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+69            android:exported="false" />
+69-->[androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>

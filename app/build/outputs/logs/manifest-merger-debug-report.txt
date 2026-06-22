@@ -1,0 +1,331 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\78931ff1ea211c9f50f92b7fbce44dae\transformed\viewbinding-8.1.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\懒大王\.gradle\caches\transforms-3\62791f737312b304002204add94d4fcc\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\懒大王\.gradle\caches\transforms-3\9d57f8136ce36d3520ed1699502f64d0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\1eed1095d41e8e6e72876c9913e0dbb0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\d082e8f4139e0ce56930d6cc08e589cf\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\1b87afda0624169e39dd16436848c2f1\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\7fbae1eaadb3750706b283e36b536fb6\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\懒大王\.gradle\caches\transforms-3\0ecb763a29da470cd6eaa87850c2bbf2\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\懒大王\.gradle\caches\transforms-3\dc182d4ac99c1f4be17328ece852b72a\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbd806a88894358cfa14681b2a046d22\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\454f7e737af9d9adc752fb8a2eaaff68\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\1753c9e6ad656b1984def2922eae5a98\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\0e6e12abc62d91ce71323d390fe789cf\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\f94e53d199dd3af89ae0a34c5841472f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\5f7f2bdc522493eb3ef9418e3bcfab12\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\懒大王\.gradle\caches\transforms-3\9f8f2ea8ecda884ce74d56e560c5691d\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\723e571750b23410b6e87636c06907dd\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\882aa8be91a8bab4fb6984602cdb7ffa\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3f2437158010c02ec62424eb287fdcad\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\185b853d2424da31ecaa51bcba26eb74\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\02b590be15ae896bf77d183a9c0639e6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\f8830b7705cffffcfe4acf18123694da\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\c5d6d35648dbbe7778178ce07250faa2\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\1374b9e03657046e95c465b74d709fc0\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\09cdbd1484637207dd4c2ac53c2c5480\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\63d5095b05673d0a9183d502f6008bcf\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\54dc25a51cfed4f9ce0c9b23caa32c4b\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\273739a19a4599bbdddead5e0bea49e0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\dd14bcd066d5a5ee53d20f621cdef110\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\1fc62fdc061549a7fffa890ecb5c5b90\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\懒大王\.gradle\caches\transforms-3\7d9b764093f1b14cbb7461d0e7355100\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\懒大王\.gradle\caches\transforms-3\38c96c4e6b47b3de40d9fc5767ce673f\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\33fd1df3f7e3e3193f586a6da3e2b5e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\f0173cccb1a6b9cf169368a45382b3fb\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\1ff04e9d11af8f2272276fd71541ac61\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\770f6d33c28cdac2c7d8db89d87a8609\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\8e5fe7d11fc65f48352479918d9d1309\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\edf41583c0fdfbc4d1fcb0475dd6bcf0\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\cc74b03f4355468cf0dfa87e3e1b7ebd\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\9413d941058e47743372ca8118ea26f5\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:5:5-34:19
+INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:5:5-34:19
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\懒大王\.gradle\caches\transforms-3\62791f737312b304002204add94d4fcc\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\懒大王\.gradle\caches\transforms-3\62791f737312b304002204add94d4fcc\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\懒大王\.gradle\caches\transforms-3\9d57f8136ce36d3520ed1699502f64d0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\懒大王\.gradle\caches\transforms-3\9d57f8136ce36d3520ed1699502f64d0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\33fd1df3f7e3e3193f586a6da3e2b5e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\33fd1df3f7e3e3193f586a6da3e2b5e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\f0173cccb1a6b9cf169368a45382b3fb\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\f0173cccb1a6b9cf169368a45382b3fb\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:9:9-63
+	android:icon
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:7:9-58
+	android:allowBackup
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:11:9-48
+activity#com.lazyledger.app.ui.MainActivity
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:13:9-20:20
+	android:exported
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:14:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:18:27-74
+service#com.lazyledger.app.service.AutoLedgerService
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:22:9-32:19
+	android:exported
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:24:13-36
+	android:permission
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:25:13-79
+	android:name
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:23:13-54
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:26:13-28:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:27:17-92
+	android:name
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:27:25-89
+meta-data#android.accessibilityservice
+ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:29:13-31:72
+	android:resource
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:30:17-60
+uses-sdk
+INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml
+INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\78931ff1ea211c9f50f92b7fbce44dae\transformed\viewbinding-8.1.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\78931ff1ea211c9f50f92b7fbce44dae\transformed\viewbinding-8.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\懒大王\.gradle\caches\transforms-3\62791f737312b304002204add94d4fcc\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\懒大王\.gradle\caches\transforms-3\62791f737312b304002204add94d4fcc\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\懒大王\.gradle\caches\transforms-3\9d57f8136ce36d3520ed1699502f64d0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\懒大王\.gradle\caches\transforms-3\9d57f8136ce36d3520ed1699502f64d0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\1eed1095d41e8e6e72876c9913e0dbb0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\1eed1095d41e8e6e72876c9913e0dbb0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\d082e8f4139e0ce56930d6cc08e589cf\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\d082e8f4139e0ce56930d6cc08e589cf\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\1b87afda0624169e39dd16436848c2f1\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\1b87afda0624169e39dd16436848c2f1\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\7fbae1eaadb3750706b283e36b536fb6\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\7fbae1eaadb3750706b283e36b536fb6\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\懒大王\.gradle\caches\transforms-3\0ecb763a29da470cd6eaa87850c2bbf2\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\懒大王\.gradle\caches\transforms-3\0ecb763a29da470cd6eaa87850c2bbf2\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\懒大王\.gradle\caches\transforms-3\dc182d4ac99c1f4be17328ece852b72a\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\懒大王\.gradle\caches\transforms-3\dc182d4ac99c1f4be17328ece852b72a\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbd806a88894358cfa14681b2a046d22\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbd806a88894358cfa14681b2a046d22\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\454f7e737af9d9adc752fb8a2eaaff68\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\454f7e737af9d9adc752fb8a2eaaff68\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\1753c9e6ad656b1984def2922eae5a98\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\1753c9e6ad656b1984def2922eae5a98\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\0e6e12abc62d91ce71323d390fe789cf\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\0e6e12abc62d91ce71323d390fe789cf\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\f94e53d199dd3af89ae0a34c5841472f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\f94e53d199dd3af89ae0a34c5841472f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\5f7f2bdc522493eb3ef9418e3bcfab12\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\5f7f2bdc522493eb3ef9418e3bcfab12\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\懒大王\.gradle\caches\transforms-3\9f8f2ea8ecda884ce74d56e560c5691d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\懒大王\.gradle\caches\transforms-3\9f8f2ea8ecda884ce74d56e560c5691d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\723e571750b23410b6e87636c06907dd\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\723e571750b23410b6e87636c06907dd\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\882aa8be91a8bab4fb6984602cdb7ffa\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\882aa8be91a8bab4fb6984602cdb7ffa\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3f2437158010c02ec62424eb287fdcad\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3f2437158010c02ec62424eb287fdcad\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\185b853d2424da31ecaa51bcba26eb74\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\185b853d2424da31ecaa51bcba26eb74\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\02b590be15ae896bf77d183a9c0639e6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\02b590be15ae896bf77d183a9c0639e6\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\f8830b7705cffffcfe4acf18123694da\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\f8830b7705cffffcfe4acf18123694da\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\c5d6d35648dbbe7778178ce07250faa2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\c5d6d35648dbbe7778178ce07250faa2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\1374b9e03657046e95c465b74d709fc0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\1374b9e03657046e95c465b74d709fc0\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\09cdbd1484637207dd4c2ac53c2c5480\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\09cdbd1484637207dd4c2ac53c2c5480\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\63d5095b05673d0a9183d502f6008bcf\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\63d5095b05673d0a9183d502f6008bcf\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\54dc25a51cfed4f9ce0c9b23caa32c4b\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\54dc25a51cfed4f9ce0c9b23caa32c4b\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\273739a19a4599bbdddead5e0bea49e0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\273739a19a4599bbdddead5e0bea49e0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\dd14bcd066d5a5ee53d20f621cdef110\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\dd14bcd066d5a5ee53d20f621cdef110\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\1fc62fdc061549a7fffa890ecb5c5b90\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\1fc62fdc061549a7fffa890ecb5c5b90\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\懒大王\.gradle\caches\transforms-3\7d9b764093f1b14cbb7461d0e7355100\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\懒大王\.gradle\caches\transforms-3\7d9b764093f1b14cbb7461d0e7355100\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\懒大王\.gradle\caches\transforms-3\38c96c4e6b47b3de40d9fc5767ce673f\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\懒大王\.gradle\caches\transforms-3\38c96c4e6b47b3de40d9fc5767ce673f\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\33fd1df3f7e3e3193f586a6da3e2b5e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\33fd1df3f7e3e3193f586a6da3e2b5e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\f0173cccb1a6b9cf169368a45382b3fb\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\f0173cccb1a6b9cf169368a45382b3fb\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\1ff04e9d11af8f2272276fd71541ac61\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\1ff04e9d11af8f2272276fd71541ac61\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\770f6d33c28cdac2c7d8db89d87a8609\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\770f6d33c28cdac2c7d8db89d87a8609\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\8e5fe7d11fc65f48352479918d9d1309\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\8e5fe7d11fc65f48352479918d9d1309\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\edf41583c0fdfbc4d1fcb0475dd6bcf0\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\edf41583c0fdfbc4d1fcb0475dd6bcf0\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\cc74b03f4355468cf0dfa87e3e1b7ebd\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\cc74b03f4355468cf0dfa87e3e1b7ebd\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\9413d941058e47743372ca8118ea26f5\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\9413d941058e47743372ca8118ea26f5\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\f0173cccb1a6b9cf169368a45382b3fb\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\懒大王\.gradle\caches\transforms-3\f0173cccb1a6b9cf169368a45382b3fb\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\05fe1fc875e71bbec4d670225368b7a3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\ebf55e053b369ac6bb3c77f198eb2ed1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.lazyledger.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.lazyledger.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\懒大王\.gradle\caches\transforms-3\7eb50f59b10115e42ff2c293427c0967\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

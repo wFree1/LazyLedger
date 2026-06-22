@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.lazyledger.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.lazyledger.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-mergeDebugResources-33:\\layout\\item_transaction.xml",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.lazyledger.app-mergeDebugResources-33:/layout/item_transaction.xml",
+        "source": "com.lazyledger.app-main-36:/layout/item_transaction.xml"
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.lazyledger.app-mergeDebugResources-32:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\懒大王\\.gradle\\caches\\transforms-3\\d082e8f4139e0ce56930d6cc08e589cf\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

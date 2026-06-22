@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.lazyledger.app-merged_res-34:/drawable_bg_icon_green.xml.flat",
+        "source": "com.lazyledger.app-main-36:/drawable/bg_icon_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-merged_res-34:\\layout_item_transaction.xml.flat",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "com.lazyledger.app-merged_res-34:/drawable_bg_square_card.xml.flat",
+        "source": "com.lazyledger.app-main-36:/drawable/bg_square_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-merged_res-34:\\xml_accessibility_service_config.xml.flat",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\xml\\accessibility_service_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-merged_res-34:\\drawable_circle_bg.xml.flat",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\drawable\\circle_bg.xml"
+    },
+    {
+        "merged": "com.lazyledger.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.lazyledger.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-merged_res-34:\\drawable_bg_blue_gradient.xml.flat",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\drawable\\bg_blue_gradient.xml"
+    },
+    {
+        "merged": "com.lazyledger.app-merged_res-34:/drawable_bg_hero_card.xml.flat",
+        "source": "com.lazyledger.app-main-36:/drawable/bg_hero_card.xml"
+    },
+    {
+        "merged": "com.lazyledger.app-merged_res-34:/drawable_bg_icon_red.xml.flat",
+        "source": "com.lazyledger.app-main-36:/drawable/bg_icon_red.xml"
+    },
+    {
+        "merged": "com.lazyledger.app-merged_res-34:/layout_item_transaction.xml.flat",
+        "source": "com.lazyledger.app-main-36:/layout/item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\activity_main.xml"
+    }
+]

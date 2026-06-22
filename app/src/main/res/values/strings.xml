@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LazyLedger</string>
+    <string name="accessibility_service_description">用于监听微信与支付宝支付详情，实现自动记账。</string>
+</resources>

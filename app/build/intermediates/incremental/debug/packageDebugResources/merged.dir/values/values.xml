@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="colorAmountGreen">#10C999</color>
+    <color name="colorAmountRed">#FF6464</color>
+    <color name="colorBackground">#F7F9FC</color>
+    <color name="colorIconBgBlue">#E3F2FD</color>
+    <color name="colorIconBgGreen">#E8F5E9</color>
+    <color name="colorIconBgRed">#FFEBEE</color>
+    <color name="colorIconBgYellow">#FFF8E1</color>
+    <color name="colorPrimary">#6666B3</color>
+    <color name="colorPrimaryDark">#525299</color>
+    <color name="colorTextDark">#2C304A</color>
+    <color name="colorTextGrey">#A0A4B8</color>
+    <color name="colorTextLight">#D1D3E0</color>
+    <color name="white">#FFFFFF</color>
+    <string name="accessibility_service_description">用于监听微信与支付宝支付详情，实现自动记账。</string>
+    <string name="app_name">LazyLedger</string>
+    <style name="Theme.LazyLedger" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">#81C784</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:windowBackground">#F7F8FA</item>
+        
+        <item name="android:statusBarColor">#F7F8FA</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
