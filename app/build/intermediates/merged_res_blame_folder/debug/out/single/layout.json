@@ -1,18 +1,38 @@
 [
     {
-        "merged": "com.lazyledger.app-mergeDebugResources-33:/layout/activity_main.xml",
-        "source": "com.lazyledger.app-main-36:/layout/activity_main.xml"
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-mergeDebugResources-33:\\layout\\fragment_account.xml",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\fragment_account.xml"
+    },
+    {
+        "merged": "com.lazyledger.app-mergeDebugResources-33:/layout/fragment_plan.xml",
+        "source": "com.lazyledger.app-main-36:/layout/fragment_plan.xml"
     },
     {
         "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-mergeDebugResources-33:\\layout\\item_transaction.xml",
         "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\item_transaction.xml"
     },
     {
-        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-mergeDebugResources-33:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\activity_main.xml"
+        "merged": "com.lazyledger.app-mergeDebugResources-33:/layout/fragment_account.xml",
+        "source": "com.lazyledger.app-main-36:/layout/fragment_account.xml"
     },
     {
-        "merged": "com.lazyledger.app-mergeDebugResources-33:/layout/item_transaction.xml",
-        "source": "com.lazyledger.app-main-36:/layout/item_transaction.xml"
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-mergeDebugResources-33:\\layout\\fragment_plan.xml",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\fragment_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-mergeDebugResources-33:\\layout\\fragment_report.xml",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\fragment_report.xml"
+    },
+    {
+        "merged": "com.lazyledger.app-mergeDebugResources-33:/layout/fragment_report.xml",
+        "source": "com.lazyledger.app-main-36:/layout/fragment_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-mergeDebugResources-33:\\layout\\fragment_bill.xml",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\fragment_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\懒大王\\.gradle\\daemon\\8.2\\com.lazyledger.app-main-36:\\layout\\activity_main.xml"
     }
 ]

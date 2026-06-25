@@ -12,6 +12,7 @@ public class MainViewModel extends AndroidViewModel {
     private LiveData<List<Transaction>> allTransactions;
     private LiveData<Double> totalExpense;
     private LiveData<Double> totalIncome;
+    private LiveData<List<com.lazyledger.app.db.entity.CategorySum>> expenseByCategory;
 
     public MainViewModel(Application application) {
         super(application);
@@ -19,6 +20,7 @@ public class MainViewModel extends AndroidViewModel {
         allTransactions = repository.getAllTransactions();
         totalExpense = repository.getTotalExpense();
         totalIncome = repository.getTotalIncome();
+        expenseByCategory = repository.getExpenseByCategory();
     }
 
     public LiveData<List<Transaction>> getAllTransactions() {
@@ -33,7 +35,15 @@ public class MainViewModel extends AndroidViewModel {
         return totalIncome;
     }
 
+    public LiveData<List<com.lazyledger.app.db.entity.CategorySum>> getExpenseByCategory() {
+        return expenseByCategory;
+    }
+
     public void insert(Transaction transaction) {
         repository.insert(transaction);
+    }
+
+    public void deleteAll() {
+        repository.deleteAll();
     }
 }

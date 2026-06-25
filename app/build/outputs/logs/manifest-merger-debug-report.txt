@@ -35,6 +35,7 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\懒大王\.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\63d5095b05673d0a9183d502f6008bcf\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\54dc25a51cfed4f9ce0c9b23caa32c4b\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\671b191030e2aee135da583c068fc3c7\transformed\MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\273739a19a4599bbdddead5e0bea49e0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\dd14bcd066d5a5ee53d20f621cdef110\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\懒大王\.gradle\caches\transforms-3\1fc62fdc061549a7fffa890ecb5c5b90\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
@@ -88,9 +89,9 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\懒大王\.gradle\
 	android:label
 		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:9:9-63
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:7:9-58
+		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
 		ADDED from D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
@@ -197,6 +198,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\懒大王\.g
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\懒大王\.gradle\caches\transforms-3\54dc25a51cfed4f9ce0c9b23caa32c4b\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\懒大王\.gradle\caches\transforms-3\cbe9ea1ab1f641b4202e80f04340024f\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\671b191030e2aee135da583c068fc3c7\transformed\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\懒大王\.gradle\caches\transforms-3\671b191030e2aee135da583c068fc3c7\transformed\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\273739a19a4599bbdddead5e0bea49e0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\273739a19a4599bbdddead5e0bea49e0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\懒大王\.gradle\caches\transforms-3\dd14bcd066d5a5ee53d20f621cdef110\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44

@@ -6,8 +6,8 @@
     <color name="colorBackground">#F7F9FC</color>
 
     <!-- Theme Colors (From Image) -->
-    <color name="colorPrimary">#6666B3</color> <!-- Purple-Blue -->
-    <color name="colorPrimaryDark">#525299</color>
+    <color name="colorPrimary">#71B2D9</color> <!-- Soft Blue from Logo -->
+    <color name="colorPrimaryDark">#5EA2C9</color>
     
     <!-- Text Colors -->
     <color name="colorTextDark">#2C304A</color>

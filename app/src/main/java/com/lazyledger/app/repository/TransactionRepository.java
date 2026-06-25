@@ -14,6 +14,7 @@ public class TransactionRepository {
     private LiveData<List<Transaction>> allTransactions;
     private LiveData<Double> totalExpense;
     private LiveData<Double> totalIncome;
+    private LiveData<List<com.lazyledger.app.db.entity.CategorySum>> expenseByCategory;
     private static final ExecutorService executorService = Executors.newFixedThreadPool(4);
 
     public TransactionRepository(Application application) {
@@ -22,6 +23,7 @@ public class TransactionRepository {
         allTransactions = transactionDao.getAllTransactions();
         totalExpense = transactionDao.getTotalExpense();
         totalIncome = transactionDao.getTotalIncome();
+        expenseByCategory = transactionDao.getExpenseByCategory();
     }
 
     public LiveData<List<Transaction>> getAllTransactions() {
@@ -36,7 +38,15 @@ public class TransactionRepository {
         return totalIncome;
     }
 
+    public LiveData<List<com.lazyledger.app.db.entity.CategorySum>> getExpenseByCategory() {
+        return expenseByCategory;
+    }
+
     public void insert(Transaction transaction) {
         executorService.execute(() -> transactionDao.insert(transaction));
+    }
+
+    public void deleteAll() {
+        executorService.execute(() -> transactionDao.deleteAll());
     }
 }

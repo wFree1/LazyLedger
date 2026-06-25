@@ -27,12 +27,12 @@
 19-->[androidx.core:core:1.9.0] C:\Users\懒大王\.gradle\caches\transforms-3\3a78c55b5c66751929d655a93b51a9be\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
-22        android:icon="@android:drawable/sym_def_app_icon"
-22-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:7:9-58
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:7:9-43
 23        android:label="@string/app_name"
 23-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:8:9-41
-24        android:roundIcon="@android:drawable/sym_def_app_icon"
-24-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:9:9-63
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:9:9-54
 25        android:supportsRtl="true"
 25-->D:\project\AnriodProject\LazyLedger\app\src\main\AndroidManifest.xml:10:9-35
 26        android:testOnly="true"

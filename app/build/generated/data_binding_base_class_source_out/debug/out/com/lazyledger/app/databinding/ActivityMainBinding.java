@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.bottomappbar.BottomAppBar;
@@ -29,33 +29,32 @@ public final class ActivityMainBinding implements ViewBinding {
   public final FloatingActionButton fab;
 
   @NonNull
-  public final RecyclerView recyclerView;
+  public final FragmentContainerView fragmentContainer;
 
   @NonNull
-  public final TextView tvServiceStatus;
+  public final TextView navAccount;
 
   @NonNull
-  public final TextView tvTotalBalance;
+  public final TextView navPlan;
 
   @NonNull
-  public final TextView tvTotalExpense;
+  public final TextView navReport;
 
   @NonNull
-  public final TextView tvTotalIncome;
+  public final TextView navWallet;
 
   private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
       @NonNull BottomAppBar bottomAppBar, @NonNull FloatingActionButton fab,
-      @NonNull RecyclerView recyclerView, @NonNull TextView tvServiceStatus,
-      @NonNull TextView tvTotalBalance, @NonNull TextView tvTotalExpense,
-      @NonNull TextView tvTotalIncome) {
+      @NonNull FragmentContainerView fragmentContainer, @NonNull TextView navAccount,
+      @NonNull TextView navPlan, @NonNull TextView navReport, @NonNull TextView navWallet) {
     this.rootView = rootView;
     this.bottomAppBar = bottomAppBar;
     this.fab = fab;
-    this.recyclerView = recyclerView;
-    this.tvServiceStatus = tvServiceStatus;
-    this.tvTotalBalance = tvTotalBalance;
-    this.tvTotalExpense = tvTotalExpense;
-    this.tvTotalIncome = tvTotalIncome;
+    this.fragmentContainer = fragmentContainer;
+    this.navAccount = navAccount;
+    this.navPlan = navPlan;
+    this.navReport = navReport;
+    this.navWallet = navWallet;
   }
 
   @Override
@@ -97,38 +96,38 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recyclerView;
-      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerView == null) {
+      id = R.id.fragment_container;
+      FragmentContainerView fragmentContainer = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentContainer == null) {
         break missingId;
       }
 
-      id = R.id.tvServiceStatus;
-      TextView tvServiceStatus = ViewBindings.findChildViewById(rootView, id);
-      if (tvServiceStatus == null) {
+      id = R.id.nav_account;
+      TextView navAccount = ViewBindings.findChildViewById(rootView, id);
+      if (navAccount == null) {
         break missingId;
       }
 
-      id = R.id.tvTotalBalance;
-      TextView tvTotalBalance = ViewBindings.findChildViewById(rootView, id);
-      if (tvTotalBalance == null) {
+      id = R.id.nav_plan;
+      TextView navPlan = ViewBindings.findChildViewById(rootView, id);
+      if (navPlan == null) {
         break missingId;
       }
 
-      id = R.id.tvTotalExpense;
-      TextView tvTotalExpense = ViewBindings.findChildViewById(rootView, id);
-      if (tvTotalExpense == null) {
+      id = R.id.nav_report;
+      TextView navReport = ViewBindings.findChildViewById(rootView, id);
+      if (navReport == null) {
         break missingId;
       }
 
-      id = R.id.tvTotalIncome;
-      TextView tvTotalIncome = ViewBindings.findChildViewById(rootView, id);
-      if (tvTotalIncome == null) {
+      id = R.id.nav_wallet;
+      TextView navWallet = ViewBindings.findChildViewById(rootView, id);
+      if (navWallet == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((CoordinatorLayout) rootView, bottomAppBar, fab, recyclerView,
-          tvServiceStatus, tvTotalBalance, tvTotalExpense, tvTotalIncome);
+      return new ActivityMainBinding((CoordinatorLayout) rootView, bottomAppBar, fab,
+          fragmentContainer, navAccount, navPlan, navReport, navWallet);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

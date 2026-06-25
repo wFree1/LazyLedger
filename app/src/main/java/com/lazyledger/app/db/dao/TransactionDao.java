@@ -20,4 +20,10 @@ public interface TransactionDao {
 
     @Query("SELECT SUM(amount) FROM transactions WHERE type = 1")
     LiveData<Double> getTotalIncome();
+
+    @Query("SELECT category, SUM(amount) as total FROM transactions WHERE type = 0 GROUP BY category ORDER BY total DESC")
+    LiveData<List<com.lazyledger.app.db.entity.CategorySum>> getExpenseByCategory();
+
+    @Query("DELETE FROM transactions")
+    void deleteAll();
 }

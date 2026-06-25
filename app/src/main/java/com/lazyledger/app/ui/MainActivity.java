@@ -1,19 +1,20 @@
 package com.lazyledger.app.ui;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.provider.Settings;
+import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.fragment.app.Fragment;
 import com.lazyledger.app.databinding.ActivityMainBinding;
-import com.lazyledger.app.db.entity.Transaction;
+import com.lazyledger.app.R;
 
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    private MainViewModel mainViewModel;
-    private TransactionAdapter adapter;
+    
+    private Fragment billFragment = new BillFragment();
+    private Fragment reportFragment = new ReportFragment();
+    private Fragment planFragment = new PlanFragment();
+    private Fragment accountFragment = new AccountFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,50 +22,58 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        setupRecyclerView();
-        setupViewModel();
+        // Default fragment
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container, billFragment)
+                .commit();
+            updateNavSelection(binding.navWallet);
+        }
+
         setupListeners();
     }
 
-    private void setupRecyclerView() {
-        adapter = new TransactionAdapter();
-        binding.recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        binding.recyclerView.setAdapter(adapter);
-    }
-
-    private void setupViewModel() {
-        mainViewModel = new ViewModelProvider(this).get(MainViewModel.class);
-        
-        mainViewModel.getAllTransactions().observe(this, transactions -> {
-            adapter.setTransactions(transactions);
-        });
-
-        mainViewModel.getTotalExpense().observe(this, expense -> {
-            double val = expense != null ? expense : 0.0;
-            binding.tvTotalExpense.setText(String.format("- ¥%.2f", val));
-            updateNetBalance();
-        });
-
-        mainViewModel.getTotalIncome().observe(this, income -> {
-            double val = income != null ? income : 0.0;
-            binding.tvTotalIncome.setText(String.format("+ ¥%.2f", val));
-            updateNetBalance();
-        });
-    }
-
-    private void updateNetBalance() {
-        Double inc = mainViewModel.getTotalIncome().getValue();
-        Double exp = mainViewModel.getTotalExpense().getValue();
-        double incomeVal = inc != null ? inc : 0.0;
-        double expVal = exp != null ? exp : 0.0;
-        double net = incomeVal - expVal;
-        binding.tvTotalBalance.setText(String.format("¥ %.2f", net));
-    }
-
     private void setupListeners() {
-        binding.tvServiceStatus.setOnClickListener(v -> {
-            Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
-            startActivity(intent);
+        binding.navWallet.setOnClickListener(v -> {
+            switchFragment(billFragment);
+            updateNavSelection(binding.navWallet);
         });
+
+        binding.navReport.setOnClickListener(v -> {
+            switchFragment(reportFragment);
+            updateNavSelection(binding.navReport);
+        });
+
+        binding.navPlan.setOnClickListener(v -> {
+            switchFragment(planFragment);
+            updateNavSelection(binding.navPlan);
+        });
+
+        binding.navAccount.setOnClickListener(v -> {
+            switchFragment(accountFragment);
+            updateNavSelection(binding.navAccount);
+        });
+        
+        binding.fab.setOnClickListener(v -> {
+            // Note: FAB might have specific action later
+        });
+    }
+
+    private void switchFragment(Fragment fragment) {
+        getSupportFragmentManager().beginTransaction()
+            .replace(R.id.fragment_container, fragment)
+            .commit();
+    }
+    
+    private void updateNavSelection(TextView selectedNav) {
+        int colorPrimary = getResources().getColor(R.color.colorPrimary, getTheme());
+        int colorGrey = getResources().getColor(R.color.colorTextGrey, getTheme());
+
+        binding.navWallet.setTextColor(colorGrey);
+        binding.navReport.setTextColor(colorGrey);
+        binding.navPlan.setTextColor(colorGrey);
+        binding.navAccount.setTextColor(colorGrey);
+
+        selectedNav.setTextColor(colorPrimary);
     }
 }
